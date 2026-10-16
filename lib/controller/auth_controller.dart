@@ -22,7 +22,7 @@ class EmailLinkState {
   final EmailLinkStep step;
   final bool isLoading;
   final String? error;
-  final String? email; // stored so we can complete sign-in when link arrives
+  final String? email;
 
   const EmailLinkState({
     this.step = EmailLinkStep.inputEmail,
@@ -50,25 +50,6 @@ class EmailLinkController extends StateNotifier<EmailLinkState> {
   final AuthService _service;
   EmailLinkController(this._service) : super(const EmailLinkState());
 
-  // Future<void> sendLink(String email) async {
-  //   state = state.copyWith(isLoading: true, error: null);
-  //   try {
-  //     await _service.sendEmailSignInLink(email);
-  //     final prefs = await SharedPreferences.getInstance();
-  //     await prefs.setString('emailForSignIn', email);
-  //     final prefs = await SharedPreferences.getInstance();
-  //     final email = state.email ?? prefs.getString('emailForSignIn');
-  //     if (email == null) return;
-  //     state = EmailLinkState(step: EmailLinkStep.linkSent, email: email);
-  //   } on FirebaseAuthException catch (e) {
-  //     state = state.copyWith(isLoading: false, error: _mapError(e.code));
-  //   } catch (e) {
-  //     state = state.copyWith(
-  //       isLoading: false,
-  //       error: 'Failed to send link. Please try again.',
-  //     );
-  //   }
-  // }
   Future<void> sendLink(String email) async {
     state = state.copyWith(isLoading: true, error: null);
     try {
