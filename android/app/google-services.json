@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "254089364218",
+    "project_id": "logindemo-fb6d0",
+    "storage_bucket": "logindemo-fb6d0.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:254089364218:android:5766b4179df8faef64bf43",
+        "android_client_info": {
+          "package_name": "com.example.login_demo"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAsUNZT-1NvaWunAdUGScz0beQnJ9p3yKo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

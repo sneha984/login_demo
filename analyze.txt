@@ -1,0 +1,43 @@
+﻿Analyzing login_demo...                                         
+
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss. Try replacing the use of the deprecated member with the replacement - lib\core\theme\app_theme.dart:53:47 - deprecated_member_use
+   info - Unnecessary use of multiple underscores. Try using '_' - lib\main.dart:30:20 - unnecessary_underscores
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss. Try replacing the use of the deprecated member with the replacement - lib\view\screens\auth\email_login_screen.dart:165:39 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss. Try replacing the use of the deprecated member with the replacement - lib\view\screens\auth\email_login_screen.dart:257:43 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss. Try replacing the use of the deprecated member with the replacement - lib\view\screens\auth\email_login_screen.dart:328:36 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss. Try replacing the use of the deprecated member with the replacement - lib\view\screens\auth\email_login_screen.dart:329:38 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss. Try replacing the use of the deprecated member with the replacement - lib\view\screens\auth\email_login_screen.dart:360:39 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss. Try replacing the use of the deprecated member with the replacement - lib\view\screens\auth\email_login_screen.dart:370:37 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss. Try replacing the use of the deprecated member with the replacement - lib\view\screens\auth\email_login_screen.dart:372:56 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss. Try replacing the use of the deprecated member with the replacement - lib\view\screens\auth\login_screen.dart:86:41 - deprecated_member_use
+   info - Unnecessary use of multiple underscores. Try using '_' - lib\view\screens\auth\login_screen.dart:190:24 - unnecessary_underscores
+   info - Unnecessary use of multiple underscores. Try using '_' - lib\view\screens\auth\login_screen.dart:190:28 - unnecessary_underscores
+   info - Unnecessary use of multiple underscores. Try using '_' - lib\view\screens\auth\login_screen.dart:191:42 - unnecessary_underscores
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss. Try replacing the use of the deprecated member with the replacement - lib\view\screens\auth\login_screen.dart:247:43 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss. Try replacing the use of the deprecated member with the replacement - lib\view\screens\auth\login_screen.dart:343:58 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss. Try replacing the use of the deprecated member with the replacement - lib\view\screens\auth\login_screen.dart:348:60 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss. Try replacing the use of the deprecated member with the replacement - lib\view\screens\auth\phone_login_screen.dart:223:60 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss. Try replacing the use of the deprecated member with the replacement - lib\view\screens\auth\phone_login_screen.dart:342:41 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss. Try replacing the use of the deprecated member with the replacement - lib\view\screens\home\home_screen.dart:26:41 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss. Try replacing the use of the deprecated member with the replacement - lib\view\screens\home\home_screen.dart:110:37 - deprecated_member_use
+   info - Unnecessary use of multiple underscores. Try using '_' - lib\view\screens\home\home_screen.dart:121:35 - unnecessary_underscores
+   info - Unnecessary use of multiple underscores. Try using '_' - lib\view\screens\home\home_screen.dart:121:39 - unnecessary_underscores
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss. Try replacing the use of the deprecated member with the replacement - lib\view\screens\home\home_screen.dart:147:33 - deprecated_member_use
+
+flutter : 23 issues found. 
+(ran in 37.7s)
+At line:1 char:1
++ flutter analyze --no-pub 
+2>&1 | Out-File 
+"analyze.txt" -Encoding 
+utf8 ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~
+    + CategoryInfo          
+    : NotSpecified: (23 is  
+  sues found. (ran in 37.   
+ 7s):String) [], RemoteE    
+xception
+    + FullyQualifiedErrorId 
+    : NativeCommandError
+ 
